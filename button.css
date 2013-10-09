@@ -1,0 +1,11 @@
+input.homebutton
+{
+   font-weight:bold;
+   font-style:italic;
+   text-decoration:underline;
+   color:#EEEEEE;
+   width:150px;
+   height:30px;
+   background-color:#666666;
+   border-color:#664411;
+}

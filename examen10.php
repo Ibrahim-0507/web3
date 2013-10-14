@@ -159,33 +159,164 @@
             alert("remplisser tous les questioners");
             return false;
         }
+        var radios = document.getElementsByName("question1");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+
+        var radios = document.getElementsByName("question2");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+        var radios = document.getElementsByName("question3");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+        var radios = document.getElementsByName("question4");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+        var radios = document.getElementsByName("question5");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+        var radios = document.getElementsByName("question6");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+        var radios = document.getElementsByName("question7");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+        var radios = document.getElementsByName("question8");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+        var radios = document.getElementsByName("question9");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+        var radios = document.getElementsByName("question10");
+        var formValid = false;
+
+        var i = 0;
+        while (!formValid && i < radios.length) {
+            if (radios[i].checked)
+                formValid = true;
+            i++;
+        }
+        if (formValid == false) {
+            alert("Donner reponce a tous les questions");
+            return false;
+        }
+
         else
             return true;
     }
-
         </script>
-        <style type="text/css">
-            <!--
-            .heading {
-                color: #F90;
-                font-family: "Comic Sans MS", cursive;
-            }
-            .options {
-                font-family: "Comic Sans MS", cursive;
-                font-size: 16px;
-                font-style: oblique;
-                color: #F93;
-            }
-            -->
-            .html { 
-                background: url(images/isae.jpg) no-repeat center center fixed; 
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-            }
-        </style>
-    </head> <body class="html"><form action="examint.php" method='POST' name='f' onsubmit="return valid();" >
+    </head>
+    <style type="text/css">
+        <!--
+        .heading {
+            color: #F90;
+            font-family: "Comic Sans MS", cursive;
+        }
+        .options {
+            font-family: "Comic Sans MS", cursive;
+            font-size: 16px;
+            font-style: oblique;
+            color: #F93;
+        }
+        -->
+        .html { 
+            background: url(images/isae.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style><body class="html"><form action="examint.php" method='POST' name='f' onsubmit="return valid();" >
             <h1 align="center" class="heading"><img src="images/di.png" width="304" height="42" /></h1>
             <h1 align="center" class="heading"><img src="images/cnam.png" width="830" height="51" alt="Welcome to Site" /><br>
                 <table align="center">
@@ -262,7 +393,5 @@
                         echo '<input type="radio" name="question10" value="r4"><input type="text" name="10r4" id="10r4"><br>';
                         echo '<br><br><br>';
                         echo '<input type="submit" value="submit" >';
-                        ?>
-                    </tr>
-                </table>
+                        ?></tr></table>
         </form> <body></html>

@@ -47,11 +47,11 @@
    
         if(isset($_POST['nombre'])){
             if($_POST['nombre']==10){
-                header('location:examin10.php');}
+                header('location:examen10.php');}
            if($_POST['nombre']==15){
-            header('location:examin15.php');}
+            header('location:examen15.php');}
              if($_POST['nombre']==20){
-          header('location:examin20.php');}
+          header('location:examen20.php');}
       }
       if(isset($_POST['code'])){
           $_SESSION['code']=$_POST['code'] ;
